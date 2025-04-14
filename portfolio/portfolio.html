@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Byte's portfolio</title>
+  <link href="source/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="source/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Portfólióm</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">Rólam</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Munkám</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Kapcsolat</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" id="about">
+  <div class="container">
+    <h1>Szia, Bite Gergő Máté vagyok</h1>
+    <p class="lead">Webfejlesztő | Design kedvelő | Tech rajongó</p>
+    <p>Jelenleg még tanulom a szakmát a Vasvári Pál szakgimnázium és techninum intézményében és a vizsgák előtt állok nagy és véget nem érő elszántsággal</p>
+  </div>
+</section>
+
+<section class="container my-5" id="portfolio">
+  <h2 class="text-center mb-4">Munkám</h2>
+  <div class="row">
+    <div class="col-md-4 portfolio-item">
+      <div class="card">
+        <img src="source/tájkuki logo.png" class="card-img-top" alt="LookLike">
+        <div class="card-body">
+          <h5 class="card-title">Looklike</h5>
+          <p class="card-text">Olyan felület, amely különböző szépségipari (pl.: fodrász, tetováló, műkörmös) és más testékszeres szolgáltatásokhoz tudja biztosítani és lebonyolítani az időpontfoglalást és a szakemberrel való egyeztetést.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container my-5" id="contact">
+  <h2 class="text-center mb-4">Kapcsolat</h2>
+  <form>
+    <div class="mb-3">
+      <label for="name" class="form-label">Név</label>
+      <input type="text" class="form-control" id="name" placeholder="Add meg a neved">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email cím</label>
+      <input type="email" class="form-control" id="email" placeholder="email@pelda.hu">
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Üzenet</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Írd meg az üzeneted..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Küldés</button>
+  </form>
+</section>
+<footer>
+  <div class="container">
+    <p>&copy; 2025 (Giga)Byte – Minden jog fenntartva</p>
+    <a href="https://www.instagram.com/bitegergo/"><img src="source/letöltés.jpg" alt="Instagram oldalam"></a>
+    <a href="https://github.com/1-byte20"><img src="source/letöltés.png" alt="github oldalam"></a>
+    <a href="https://www.tiktok.com/@byte8641?lang=hu-HU"><img src="source/tik.png" alt="tiktok oldalam"></a>
+  </div>
+</footer>
+
+</body>
+</html>
